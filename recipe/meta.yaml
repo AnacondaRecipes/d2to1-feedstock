@@ -16,7 +16,7 @@ source:
 
 
 build:
-  noarch: {{ noarch_python }}
+  noarch: python
   preserve_egg_dir: True
   number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
